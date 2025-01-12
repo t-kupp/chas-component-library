@@ -1,6 +1,6 @@
 export default function Button({ size, color, disabled, children }) {
   const defaultStyle =
-    'rounded font-semibold py-0 border-none focus:outline-none';
+    'rounded font-semibold py-0 border-none focus:outline-none flex items-center gap-2';
 
   const buttonSize =
     {

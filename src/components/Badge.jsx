@@ -35,9 +35,11 @@ export default function Badge({ size, color, icon, children }) {
     }[icon] || '';
 
   return (
-    <p className={`${defaultStyle} ${badgeColor} ${badgeSize}`}>
-      {badgeIcon}
-      {children}
-    </p>
+    <div className="flex items-center">
+      <p className={`${defaultStyle} ${badgeColor} ${badgeSize}`}>
+        {badgeIcon}
+        {children}
+      </p>
+    </div>
   );
 }
