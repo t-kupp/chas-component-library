@@ -6,6 +6,7 @@ export default function ButtonDisplay() {
   return (
     <ElementSection title="Badge">
       <VariantSection
+        id="badge-color"
         title="Color"
         availableVariants={['gray', 'red', 'green', 'cyan', 'purple', 'yellow']}
       >
@@ -16,11 +17,16 @@ export default function ButtonDisplay() {
         <Badge color="purple">Badge</Badge>
         <Badge color="yellow">Badge</Badge>
       </VariantSection>
-      <VariantSection title="Size" availableVariants={['small', 'large']}>
+      <VariantSection
+        id="badge-size"
+        title="Size"
+        availableVariants={['small', 'large']}
+      >
         <Badge size="small">Badge</Badge>
         <Badge size="large">Badge</Badge>
       </VariantSection>
       <VariantSection
+        id="badge-icon"
         title="Icon"
         availableVariants={[
           'warning',

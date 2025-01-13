@@ -7,7 +7,11 @@ import nightwalkerImage from '../assets/nightwalker.png';
 export default function CardDisplay() {
   return (
     <ElementSection title="Card">
-      <VariantSection availableVariants={['imgSource', 'altText', 'link']}>
+      <VariantSection
+        id="card-card"
+        title="Card"
+        availableVariants={['imgSource', 'altText', 'link']}
+      >
         <Card
           imgSource={kodamaImage}
           altText="A picture of a Kodama."
@@ -24,9 +28,9 @@ export default function CardDisplay() {
           altText="A picture of the Nightwalker."
         >
           <p>
-            The <span className="font-bold">Forest Spirit</span> (シシ神) is
-            known as the god of life and death. It transforms into a gigantic,
-            translucent humanoid during the night called the Night-Walker.
+            The <span className="font-bold">Forest Spirit</span> (シシ神)
+            transforms into a gigantic, translucent humanoid during the night
+            called the Night-Walker.
           </p>
         </Card>
       </VariantSection>

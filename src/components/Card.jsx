@@ -8,10 +8,14 @@ export default function Card({ link, altText, imgSource, children }) {
         src={imgSource}
         alt={altText}
       />
-      <div className="flex flex-col p-4">
+      <div className="relative flex flex-col p-4">
         {children}
         {link && (
-          <a className="ml-auto p-1" href={link} target="_blank">
+          <a
+            className="absolute bottom-4 right-4 p-1 text-blue-500 hover:text-blue-700"
+            href={link}
+            target="_blank"
+          >
             <FiExternalLink />
           </a>
         )}
