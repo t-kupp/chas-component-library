@@ -6,7 +6,6 @@ export default function ButtonDisplay() {
   return (
     <ElementSection title="Alert">
       <VariantSection
-        id="alert-color"
         title="Color"
         availableVariants={['gray', 'green', 'red']}
       >
@@ -15,7 +14,6 @@ export default function ButtonDisplay() {
         <Alert color="red">Info Alert!</Alert>
       </VariantSection>
       <VariantSection
-        id="alert-icon"
         title="Icon"
         availableVariants={['info', 'checkmark', 'question']}
       >

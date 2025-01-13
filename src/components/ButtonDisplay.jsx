@@ -6,7 +6,6 @@ export default function ButtonDisplay() {
   return (
     <ElementSection title="Button">
       <VariantSection
-        id="btn-size"
         title="Size"
         availableVariants={['small', 'medium', 'large']}
       >
@@ -15,7 +14,6 @@ export default function ButtonDisplay() {
         <Button size="large">Button</Button>
       </VariantSection>
       <VariantSection
-        id="btn-color"
         title="Color"
         availableVariants={['gray', 'red', 'yellow', 'blue']}
       >
@@ -24,11 +22,7 @@ export default function ButtonDisplay() {
         <Button color="yellow">Button</Button>
         <Button color="blue">Button</Button>
       </VariantSection>
-      <VariantSection
-        id="btn-disabled"
-        title="Disabled"
-        availableVariants={['disabled']}
-      >
+      <VariantSection title="Disabled" availableVariants={['disabled']}>
         <Button disabled>Button</Button>
       </VariantSection>
     </ElementSection>

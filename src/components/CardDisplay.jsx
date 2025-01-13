@@ -8,7 +8,6 @@ export default function CardDisplay() {
   return (
     <ElementSection title="Card">
       <VariantSection
-        id="card-card"
         title="Card"
         availableVariants={['imgSource', 'altText', 'link']}
       >
@@ -37,5 +36,3 @@ export default function CardDisplay() {
     </ElementSection>
   );
 }
-
-// href, imgAlt, imgSrc, children
