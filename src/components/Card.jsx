@@ -11,7 +11,7 @@ export default function Card({ link, altText, imgSource, children }) {
       <div className="flex flex-col p-4">
         {children}
         {link && (
-          <a className="ml-auto p-1" href={link}>
+          <a className="ml-auto p-1" href={link} target="_blank">
             <FiExternalLink />
           </a>
         )}

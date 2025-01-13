@@ -12,7 +12,7 @@ export default function Hero() {
       className="mx-auto w-full max-w-6xl rounded-xl bg-center"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      <div className="flex h-full flex-col gap-8 rounded-xl bg-gradient-to-r from-slate-800 from-45% to-80% p-20 text-slate-100">
+      <div className="flex h-full flex-col gap-8 rounded-xl bg-gradient-to-r from-slate-100 from-45% to-80% p-20 text-slate-800">
         <div className="flex max-w-[50%] flex-col gap-4">
           <h1 className="text-6xl font-bold">Component Library</h1>
           <p className="font-medium">
@@ -41,7 +41,10 @@ export default function Hero() {
             </Button>
           </a>
 
-          <a href="#">
+          <a
+            href="https://github.com/t-kupp/chas-component-library"
+            target="_blank"
+          >
             <Button size="large" color="gray">
               Source code <FiExternalLink />
             </Button>
