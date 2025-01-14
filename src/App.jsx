@@ -9,7 +9,7 @@ import ModalDisplay from './components/ModalDisplay';
 
 function App() {
   return (
-    <div className="mx-auto w-full text-slate-800 dark:bg-neutral-800 dark:text-neutral-200">
+    <div className="mx-auto w-full text-slate-800 dark:bg-neutral-950 dark:text-neutral-200">
       <Navbar />
       <div className="flex flex-col gap-8 p-8">
         <Hero />

@@ -13,9 +13,11 @@ function Modal({ show, size, color, title }) {
 
   return (
     <div>
-      <Button color={color} size={size}>
-        <div onClick={() => setOpenModal(true)}>{title}</div>
-      </Button>
+      <div onClick={() => setOpenModal(true)}>
+        <Button color={color} size={size}>
+          {title}
+        </Button>
+      </div>
       {openModal && (
         <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm backdrop-brightness-50">
           <div
