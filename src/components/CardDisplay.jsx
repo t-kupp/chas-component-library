@@ -14,12 +14,11 @@ export default function CardDisplay() {
         <Card
           imgSource={kodamaImage}
           altText="A picture of a Kodama."
-          link="https://en.wikipedia.org/wiki/Kodama_(spirit)"
+          link="https://google.com"
         >
           <p>
-            <span className="font-bold">Kodama</span> (コダマ) are children of
-            old trees, and are a sign that the forest is healthy. They have
-            white skin with black and grey, glowing eyes.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </Card>
         <Card
@@ -27,9 +26,8 @@ export default function CardDisplay() {
           altText="A picture of the Nightwalker."
         >
           <p>
-            The <span className="font-bold">Forest Spirit</span> (シシ神)
-            transforms into a gigantic, translucent humanoid during the night
-            called the Night-Walker.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </Card>
       </VariantSection>

@@ -2,7 +2,7 @@ import { FiExternalLink } from 'react-icons/fi';
 
 export default function Card({ link, altText, imgSource, children }) {
   return (
-    <div className="w-full max-w-xs rounded-lg border bg-white">
+    <div className="w-full max-w-xs rounded-lg border bg-white text-slate-800">
       <img
         className="h-52 w-full rounded-t-lg object-cover"
         src={imgSource}

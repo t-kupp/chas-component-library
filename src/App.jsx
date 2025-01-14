@@ -4,15 +4,19 @@ import AlertDisplay from './components/AlertDisplay';
 import BadgeDisplay from './components/BadgeDisplay';
 import CardDisplay from './components/CardDisplay';
 import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="grid gap-12">
-      <Hero />
-      <ButtonDisplay />
-      <AlertDisplay />
-      <BadgeDisplay />
-      <CardDisplay />
+    <div className="mx-auto w-full text-slate-800 dark:bg-neutral-800 dark:text-neutral-200">
+      <Navbar />
+      <div className="flex flex-col gap-8 p-8">
+        <Hero />
+        <ButtonDisplay />
+        <AlertDisplay />
+        <BadgeDisplay />
+        <CardDisplay />
+      </div>
     </div>
   );
 }

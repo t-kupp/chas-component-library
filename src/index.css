@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .background-pattern {
-  background-color: #ffffff;
   opacity: 1;
   background-size: 19px 19px;
   background-image: repeating-linear-gradient(
@@ -12,6 +11,17 @@
     #f6f6f6 1.9px,
     #ffffff 0,
     #ffffff 50%
+  );
+}
+.background-pattern-dark {
+  opacity: 1;
+  background-size: 19px 19px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #000000 0,
+    #000000 1.9px,
+    #000000 0,
+    #000000 50%
   );
 }
 
@@ -28,12 +38,7 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
