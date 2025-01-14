@@ -14,7 +14,7 @@ export default function CardDisplay() {
         <Card
           imgSource={kodamaImage}
           altText="A picture of a Kodama."
-          link="https://google.com"
+          link="https://google.com/"
         >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

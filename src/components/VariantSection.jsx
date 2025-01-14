@@ -1,6 +1,6 @@
 import { useId } from 'react';
 
-export default function VariantCard({ title, availableVariants, children }) {
+export default function VariantSection({ title, availableVariants, children }) {
   const id = `${title}-${useId()}`;
 
   return (

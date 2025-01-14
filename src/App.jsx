@@ -5,6 +5,7 @@ import BadgeDisplay from './components/BadgeDisplay';
 import CardDisplay from './components/CardDisplay';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import ModalDisplay from './components/ModalDisplay';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <AlertDisplay />
         <BadgeDisplay />
         <CardDisplay />
+        <ModalDisplay />
       </div>
     </div>
   );
