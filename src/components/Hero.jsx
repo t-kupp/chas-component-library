@@ -13,7 +13,7 @@ export default function Hero() {
         className="mx-auto w-full max-w-6xl rounded-xl bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="flex h-full flex-col gap-8 rounded-xl border bg-gradient-to-r from-slate-100 from-45% to-80% px-10 py-16 shadow dark:text-slate-800">
+        <div className="flex h-full flex-col gap-8 rounded-xl border bg-gradient-to-r from-slate-100 from-45% to-80% px-10 py-16 shadow dark:border-neutral-800 dark:from-neutral-900">
           <div className="flex max-w-[50%] flex-col gap-4">
             <h1 className="text-6xl font-bold">Component Library</h1>
             <p className="font-medium">
